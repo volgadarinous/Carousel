@@ -2,7 +2,7 @@
 //var files = fs.readdirSync('/Pantoscope');
 var m = []
 const testFolder = './Pantoscope/';
-const fs = require('fs');
+// const fs = require('fs');
 
 
 
