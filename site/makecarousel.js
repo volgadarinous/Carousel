@@ -14,7 +14,7 @@ var url = window.location.href;     // Returns full URL
 console.log(url)
 var param = url.split('?')[1];
 if(param){
-	testFolder = './'+param+'/'
+	testFolder = '/'+param+'/'
 	console.log('param is:'+testFolder)
 }
 
