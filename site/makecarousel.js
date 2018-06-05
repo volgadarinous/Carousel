@@ -15,7 +15,7 @@ console.log(url)
 var params = url.split('?');
 var url = params[0]
 var folder = params[1]
-if(param){
+if(folder){
 	testFolder = '/'+folder+'/'
 	console.log('param is:'+testFolder)
 }
