@@ -12,6 +12,12 @@ $(document).ready(function(){
 //  })
 var url = window.location.href;     // Returns full URL
 console.log(url)
+var param = url.split('?')[1];
+if(param){
+	testFolder = './'+param+'/'
+	console.log('param is:'+param)
+}
+
 	
 //m = ['la.jpg','chicago.jpg']
 m= ['Figure1-1.png','Figure2-1.png','Figure3-1.png']
