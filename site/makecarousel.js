@@ -3,7 +3,7 @@
 var m = []
 
 $(document).ready(function(){  
- $.get("/Pantoscope", function(data) {
+ $.get("./Pantoscope/", function(data) {
 	 m.push(data)
  })
 	
