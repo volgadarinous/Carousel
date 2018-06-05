@@ -10,6 +10,8 @@ $(document).ready(function(){
 //  $.get("./Pantoscope/", function(data) {
 // 	 m.push(data)
 //  })
+var url = window.location.href;     // Returns full URL
+console.log(url)
 	
 //m = ['la.jpg','chicago.jpg']
 m= ['Figure1-1.png','Figure2-1.png','Figure3-1.png']
