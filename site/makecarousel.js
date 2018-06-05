@@ -1,7 +1,7 @@
 
 
 $(document).ready(function(){  
-	 m = ['la.jpg','chicago.jpg','ny.jpg']
+	 m = ['la.jpg','chicago.jpg']
   for(var i=0 ; i<m.length ; i++) {
     $('<div class="item"><img src="'+m[i]+'"><div class="carousel-caption"></div>   </div>').appendTo('.carousel-inner');
     $('<li data-target="#carousel-example-generic" data-slide-to="'+i+'"></li>').appendTo('.carousel-indicators')
