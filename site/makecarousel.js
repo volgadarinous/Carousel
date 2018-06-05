@@ -28,7 +28,7 @@ m= ['Figure1-1.png','Figure2-1.png','Figure3-1.png']
 //    })
 
   for(var i=0 ; i<m.length ; i++) {
-    $('<div class="item"><img src="./Pantoscope/'+m[i]+'"><div class="carousel-caption"></div>   </div>').appendTo('.carousel-inner');
+    $('<div class="item"><img src="'testFolder+m[i]+'"><div class="carousel-caption"></div>   </div>').appendTo('.carousel-inner');
     $('<li data-target="#carousel-example-generic" data-slide-to="'+i+'"></li>').appendTo('.carousel-indicators')
 
   }
