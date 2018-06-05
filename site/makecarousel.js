@@ -13,7 +13,7 @@ $(document).ready(function(){
 	
 //m = ['la.jpg','chicago.jpg']
 	
-  fs.readdirSync(testFolder).forEach(file => {
+  fs.readdir(testFolder).forEach(file => {
      m.push(file)
      console.log(file);
    })
