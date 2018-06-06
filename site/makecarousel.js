@@ -22,7 +22,7 @@ if(folder){
 
 	
 //m = ['la.jpg','chicago.jpg']
-m= ['Figure1-1.png','Figure2-1.png','Figure3-1.png']
+m= ['Figure1-1.png','Figure2-1.png','Figure3-1.png','Figure4-1.png','Figure5-1.png']
 	
 //   fs.readdir(testFolder).forEach(file => {
 //      m.push(file)
