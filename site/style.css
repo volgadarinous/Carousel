@@ -2,3 +2,7 @@
 	object-fit: contain;
 	height:300px !important;
 }
+.carousel-inner>.item>video {
+	object-fit: contain;
+	height:300px !important;
+}
