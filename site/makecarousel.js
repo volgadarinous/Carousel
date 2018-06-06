@@ -32,13 +32,13 @@ $(document).ready(function(){
   	for(var i=0 ; i<m.length ; i++) {
   	var filename = url.slice(0,-10)+testFolder+m[i]
   	console.log('filename is:'+filename)
-    	$('<div class="item"><img src="'+filename+'" style="margin: auto; object-fit:contain;"><div class="carousel-caption"></div>   </div>').appendTo('.carousel-inner');
+    	$('<div class="item"><img src="'+filename+'" style="margin: auto;"><div class="carousel-caption"></div>   </div>').appendTo('.carousel-inner');
     	$('<li data-target="#carousel-example-generic" data-slide-to="'+i+'"></li>').appendTo('.carousel-indicators')
 
   	}
 	//Placing the device model video
 	var videofilename = url.slice(0,-10)+testFolder+'video.mp4'
-	$('<div class="item"><video autoplay loop><source src="'+videofilename+'" style="height=100%; margin:auto; object-fit:contain;" type="video/mp4"></video><div class="carousel-caption"></div> </div>').appendTo('.carousel-inner');
+	$('<div class="item"><video autoplay loop><source src="'+videofilename+'" style="margin:auto; object-fit:contain;" type="video/mp4"></video><div class="carousel-caption"></div> </div>').appendTo('.carousel-inner');
 	$('<li data-target="#carousel-example-generic" data-slide-to="'+i+'"></li>').appendTo('.carousel-indicators')
 
 	$('.item').first().addClass('active');
