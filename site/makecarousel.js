@@ -32,7 +32,7 @@ m= ['Figure1-1.png','Figure2-1.png','Figure3-1.png','Figure4-1.png','Figure5-1.p
   for(var i=0 ; i<m.length ; i++) {
   var filename = url.slice(0,-10)+testFolder+m[i]
   console.log('filename is:'+filename)
-    $('<div class="item"><img src='+filename+'><div class="carousel-caption"></div>   </div>').appendTo('.carousel-inner');
+    $('<div class="item"><img src='+filename+'style="height: 100%;"><div class="carousel-caption"></div>   </div>').appendTo('.carousel-inner');
     $('<li data-target="#carousel-example-generic" data-slide-to="'+i+'"></li>').appendTo('.carousel-indicators')
 
   }
