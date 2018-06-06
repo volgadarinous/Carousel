@@ -1,8 +1,10 @@
 .carousel-inner>.item>img {
 	object-fit: contain;
 	height:300px !important;
+	margin:auto;
 }
 .carousel-inner>.item>video {
 	object-fit: contain;
 	height:300px !important;
+	margin:auto;
 }
