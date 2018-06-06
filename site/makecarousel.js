@@ -32,7 +32,7 @@ $(document).ready(function(){
   	for(var i=0 ; i<m.length ; i++) {
   	var filename = url.slice(0,-10)+testFolder+m[i]
   	console.log('filename is:'+filename)
-    	$('<div class="item"><img src="'+filename+'" style="height: 100%; margin: auto; object-fit:contain;"><div class="carousel-caption"></div>   </div>').appendTo('.carousel-inner');
+    	$('<div class="item"><img src="'+filename+'" style="margin: auto; object-fit:contain;"><div class="carousel-caption"></div>   </div>').appendTo('.carousel-inner');
     	$('<li data-target="#carousel-example-generic" data-slide-to="'+i+'"></li>').appendTo('.carousel-indicators')
 
   	}
