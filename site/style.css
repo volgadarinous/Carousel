@@ -1,4 +1,4 @@
 .carousel-inner>.item>img {
-	
 	object-fit: contain;
+	height:300px !important;
 }
