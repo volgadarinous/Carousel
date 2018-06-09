@@ -10,7 +10,10 @@ $(document).ready(function(){
 		console.log('param is:'+testFolder)
 	}
 
-	$('#abstract').innerHTML = "Helloooo"
+	$('#abstract').text("Helloooo")
+	
+	
+// 	$('#abstract').innerHTML = "Helloooo"
 
 	// for(var i=0 ; i<m.length ; i++) {
  //  		var filename = url.slice(0,-10)+testFolder+m[i]
