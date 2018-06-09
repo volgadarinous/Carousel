@@ -36,8 +36,10 @@ $(document).ready(function(){
 	img.src = filename;
 
 	img.onerror = function(){ // Failed to load
+		console.log('could not loadd:'+filename)
 	};
 	img.onload = function(){ // Loaded successfully
+		console.log('displaying:'+filename)
 	  	$('<div class="item"><img src="'+filename+'"><div class="carousel-caption"></div>   </div>').appendTo('.carousel-inner');
     		$('<li data-target="#carousel-example-generic" data-slide-to="'+i+'"></li>').appendTo('.carousel-indicators')
 
