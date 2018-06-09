@@ -10,7 +10,10 @@ $(document).ready(function(){
 		console.log('param is:'+testFolder)
 	}
 
+	console.log('This script runs!')
+
 	$('#abstract').text("Helloooo")
+	$('#abstract').text("Helloooo2")
 	
 	
 // 	$('#abstract').innerHTML = "Helloooo"
@@ -34,5 +37,5 @@ $(document).ready(function(){
 
 // 	};
     
-  	}
+//   	}
 });
